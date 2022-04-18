@@ -33,6 +33,7 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.9.0",
     "gh-pages": "^3.2.3",
     "prettier": "^2.6.2"
   },
@@ -48,6 +49,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "test:lh:ci": "lhci collect --start-server-command='npm run serve' --url=http://localhost:9000 --settings.chromeFlags='--no-sandbox'",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
