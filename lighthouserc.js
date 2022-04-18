@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: './my-blog-starter/public',
+      staticDistDir: './public',
       url: ['http://localhost:9000']
     },
     upload: {
