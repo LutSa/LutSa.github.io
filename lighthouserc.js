@@ -2,7 +2,7 @@ module.exports = {
   ci: {
     collect: {
       staticDistDir: './public',
-      url: ['https://lutsa.github.io/']
+      url: ['http://localhost/']
     },
     upload: {
       target: 'temporary-public-storage',
