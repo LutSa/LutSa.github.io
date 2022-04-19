@@ -1,2 +1,6 @@
 .idea
 .lighthouseci
+.cache
+my-blog-starter/node_modules
+my-blog-starter/public
+public
