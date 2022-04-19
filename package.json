@@ -47,7 +47,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && python3 automation.py",
     "develop": "gatsby develop",
     "test:lh:ci": "lhci collect --start-server-command='npm run serve' --url=http://localhost:9000 --settings.chromeFlags='--no-sandbox'",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
